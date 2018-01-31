@@ -6,7 +6,7 @@
 - checkbox
 - author's custom style
 - home page style
-- banner style 
+- banner style
 - blog page style
 - blog masonry single
 - single post page style
@@ -66,10 +66,10 @@
 html {
     font-family: sans-serif;
     /* 1 */
-    
+
     -ms-text-size-adjust: 100%;
     /* 2 */
-    
+
     -webkit-text-size-adjust: 100%;
     /* 2 */
 }
@@ -115,7 +115,7 @@ progress,
 video {
     display: inline-block;
     /* 1 */
-    
+
     vertical-align: baseline;
     /* 2 */
 }
@@ -291,10 +291,10 @@ select,
 textarea {
     color: inherit;
     /* 1 */
-    
+
     font: inherit;
     /* 2 */
-    
+
     margin: 0;
     /* 3 */
 }
@@ -332,7 +332,7 @@ input[type="reset"],
 input[type="submit"] {
     -webkit-appearance: button;
     /* 2 */
-    
+
     cursor: pointer;
     /* 3 */
 }
@@ -373,7 +373,7 @@ input[type="checkbox"],
 input[type="radio"] {
     box-sizing: border-box;
     /* 1 */
-    
+
     padding: 0;
     /* 2 */
 }
@@ -396,11 +396,11 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="search"] {
     -webkit-appearance: textfield;
     /* 1 */
-    
+
     -moz-box-sizing: content-box;
     -webkit-box-sizing: content-box;
     /* 2 */
-    
+
     box-sizing: content-box;
 }
 /**
@@ -430,7 +430,7 @@ fieldset {
 legend {
     border: 0;
     /* 1 */
-    
+
     padding: 0;
     /* 2 */
 }
@@ -645,7 +645,7 @@ input[type=checkbox]:checked + label:before {
 
 body {
     /*background: #f8f8f8;*/
-    
+
     font-family: Roboto-Regular, sans-serif;
     font-size: 16px;
 }
@@ -705,21 +705,21 @@ label {
 }
 select {
     /* Make sure the select is wider than the container so we can clip the arrow */
-    
+
     width: 110%;
     max-width: 110%;
     min-width: 110%;
     /* Remove select styling */
-    
+
     appearance: none;
     -webkit-appearance: none;
     /* Ugly Firefox way of doing it */
-    
+
     -moz-appearance: window;
     text-indent: 0.01px;
     text-overflow: "";
     /* Magic font size number to prevent iOS text zoom */
-    
+
     font-size: 16px;
     font-weight: bold;
     background: none;
@@ -727,7 +727,7 @@ select {
     color: #444;
     outline: none;
     /* Padding works surpringly well */
-    
+
     padding: .4em 19% .4em .8em;
     font-family: helvetica, sans-serif;
     line-height: 1.2;
@@ -759,25 +759,25 @@ select:-moz-focusring {
     border: 1px solid #bbb;
     background: #f3f3f3;
     /* Old browsers */
-    
+
     background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
     /* FF3.6+ */
-    
+
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #e5e5e5));
     /* Chrome,Safari4+ */
-    
+
     background: -webkit-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
     /* Chrome10+,Safari5.1+ */
-    
+
     background: -o-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
     /* Opera 11.10+ */
-    
+
     background: -ms-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
     /* IE10+ */
-    
+
     background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
     /* W3C */
-    
+
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5', GradientType=0);
     /* IE6-9 */
 }
@@ -1557,10 +1557,10 @@ html .b-promo__search {
     animation: 1s ease 0s normal none 1 running fadein;
     -moz-animation: 1s ease 0s normal none 1 running fadein;
     /* Firefox */
-    
+
     -webkit-animation: 1s ease 0s normal none 1 running fadein;
     /* Safari and Chrome */
-    
+
     -o-animation: 1s ease 0s normal none 1 running fadein;
     /* Opera */
 }
@@ -1610,10 +1610,10 @@ html .b-promo__search {
     animation: fadein 2s;
     -moz-animation: fadein 2s;
     /* Firefox */
-    
+
     -webkit-animation: fadein 2s;
     /* Safari and Chrome */
-    
+
     -o-animation: fadein 2s;
     /* Opera */
 }
@@ -1627,7 +1627,7 @@ html .b-promo__search {
 }
 @-moz-keyframes fadein {
     /* Firefox */
-    
+
     from {
         opacity: 0;
     }
@@ -1637,7 +1637,7 @@ html .b-promo__search {
 }
 @-webkit-keyframes fadein {
     /* Safari and Chrome */
-    
+
     from {
         opacity: 0;
     }
@@ -1647,7 +1647,7 @@ html .b-promo__search {
 }
 @-o-keyframes fadein {
     /* Opera */
-    
+
     from {
         opacity: 0;
     }
@@ -2223,7 +2223,7 @@ html .b-promo__search {
 
 .b-pic {
     /*background: url("../img/src/banner-1.jpg") center top;*/
-    
+
     background-attachment: fixed;
     padding-top: 60px;
     height: 200px;
@@ -2910,14 +2910,14 @@ html .b-gadget__subscribe__field {
 * html .jssort01 .pdn .c,
 * html .jssort01 .pav .c {
     /* ie quirks mode adjust */
-    
+
     width
     /**/
-    
+
     : 72px;
     height
     /**/
-    
+
     : 72px;
 }
 /* ---------------------------------------------------- Single event page style ---------------------------------------------------- */
@@ -2948,10 +2948,10 @@ html .b-gadget__subscribe__field {
     animation: fadein 2s;
     -moz-animation: fadein 2s;
     /* Firefox */
-    
+
     -webkit-animation: fadein 2s;
     /* Safari and Chrome */
-    
+
     -o-animation: fadein 2s;
     /* Opera */
 }
@@ -3492,7 +3492,7 @@ html .btn--buy-ticket:hover {
     margin-top: 0;
 }
 .b-form-cont .chosen-container-single .chosen-single {
-	
+
     height: 62px;
     background: #f7f7f7;
     line-height: 62px;
@@ -19140,7 +19140,7 @@ input[type=submit].styler[disabled] {
     min-height: 1px;
     float: left;
     /*padding: 0 4px;*/
-    
+
     -webkit-backface-visibility: hidden;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -19442,7 +19442,7 @@ line-height:22px;
 }
 
 
-ul.front-list li:nth-child(3) .front-box, ul.front-list li:nth-child(6) .front-box, ul.front-list li:nth-child(9) .front-box { 
+ul.front-list li:nth-child(3) .front-box, ul.front-list li:nth-child(6) .front-box, ul.front-list li:nth-child(9) .front-box {
 
 
 margin: 0 0 15px 0;
@@ -19477,4 +19477,48 @@ background-color:#de443a!important;
 
 .savekey {
 	display:none;
+}
+
+/* const Logo = styled.img`
+    width: 15.6px;
+    height: 25px;
+`;
+const LogoType = styled.img`
+    display: none;
+
+    @media(${screens.tablet}) {
+        display: block;
+        margin-left: 15px;
+        width: 109px;
+        height: 14px;
+        object-fit: contain;
+    }
+`;
+const LogoWrapper = styled(Link)`
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+`; */
+
+
+.brand-link {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.brand-link > :first-child {
+    width: 15.6px;
+    height: 25px;
+}
+.brand-link > :last-child {
+    margin-left: 15px;
+    width: 109px;
+    height: 14px;
+    object-fit: contain;
 }
