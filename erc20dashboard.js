@@ -226,7 +226,7 @@ function rebuild_buttons() {
 }
 
 function getmsg() {
-  return "datawallet.io \r\n\r\nEthereum address: " + openkey + "  \r\nMnemonic Phrase: '" + localStorage.getItem("d12keys") + "'\r\n\r\n(HD derivation path is m/0'/0'/0')\r\n\r\nHow to access tokens and ethers: \r\n1. Go here https://www.myetherwallet.com/#send-transaction \r\n2. Select 'Mnemonic Phrase'\r\n3. Insert Phrase and set derivation path is m/0'/0'/0' \r\n3. Click 'Unlock' \r\n4. Add custom token > " + erc20contract_address + " (DXT,0)";
+  return "datawallet.io \r\n\r\nMnemonic Phrase: '" + localStorage.getItem("d12keys") + "'\r\n\r\n(HD derivation path is m/0'/0'/0')\r\n\r\nHow to access tokens and ethers: \r\n1. Go here https://www.myetherwallet.com/#send-transaction \r\n2. Select 'Mnemonic Phrase'\r\n3. Insert Phrase and set derivation path is m/0'/0'/0' \r\n3. Click 'Unlock' \r\n4. Add custom token > " + erc20contract_address + " (DXT,0)";
 }
 
 $(function () {
