@@ -136,7 +136,7 @@ function rebalance() {
   if (!openkey) openkey = "0x";
 
   if (localStorage.getItem("name")) {
-    $("#hiname").html("Hi " + localStorage.getItem("name") + "!");
+    // $("#hiname").html("Hi " + localStorage.getItem("name") + "!");
   }
 
 
